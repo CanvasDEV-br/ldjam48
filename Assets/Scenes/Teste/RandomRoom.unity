@@ -251,10 +251,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   initialRoom: {fileID: 7473125827050918986, guid: 79baf65726c0a884991069939d580df6,
     type: 3}
+  bossRoom: {fileID: 3892381800683913203, guid: c104d174b202a8f40886144804c88a2d,
+    type: 3}
   roomsPrefabs:
   - {fileID: 959714299791855508, guid: 5c1354e65ceef044fb4fc86d6344e290, type: 3}
   - {fileID: 7818653912208958110, guid: 744af4e6c49323e4d884cbbf9cc37090, type: 3}
   - {fileID: 9191196289723388849, guid: c33d2c03a74a1004080dc6f0c193eabc, type: 3}
-  quantityCenterRooms: 3
-  quantityAlternativeRooms: 2
+  quantityCenterRooms: 10
+  quantityAlternativeRooms: 3
   roomWidth: 5
+  chancesToNull: 20
+  chancesToRight: 50
